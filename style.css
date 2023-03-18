@@ -345,7 +345,7 @@ footer {
   .logo-container:after {
     content: "";
     position: absolute;
-    bottom: -5.4vmin;
+    bottom: -6vmin;
     left: 0;
     width: 100%;
     height: 45px;
