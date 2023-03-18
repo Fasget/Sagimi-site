@@ -261,12 +261,12 @@ footer {
 
 
   .section1 {
-    height: 60vh;
+    height: 90vw;
   }
 
   .logo-image {
-    max-width: 35vw;
-    height: 35vw;
+    max-width: 38vw;
+    height: 38vw;
   }
 
   .section2 p {
@@ -275,7 +275,7 @@ footer {
   }
 
   .slides img {
-    width: 90vw;
+    width: 100vw;
   }
 
   .slides .prev, .slides .next {
@@ -284,6 +284,9 @@ footer {
     top: 40%;
   }
 
+  .section3{
+   height: 80vw  
+  }
   .section3 h1 {
     font-size: 35px;
     margin-bottom: 40px;
@@ -356,5 +359,6 @@ footer {
     padding: 10px;
   }
 }
+
 
 
