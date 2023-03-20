@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Sagimi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+    <div class="ob">
+        <header style="z-index: 99999">
+            <img class="name" src="images/Log.png" style="height: 20px; margin-left: 5vw; position: absolute">
+            <nav style="">
+                <ul>
+                <li><a href="#section1">Главная</a></li>
+                <li><a href="#section2">Часть 1</a></li>
+                <li><a href="#section3">Часть 2</a></li>
+                </ul>
+            </nav>
+            <button class="nav-button" onclick="location.href='#footer'">Контакты</button>
+        </header>
+        <main>
+            <section class="section1" id="section1">
+                <div class="logo-container">
+                    <img src="images/LOGO11.png" alt="Логотип" class="logo-image">
+                </div>
+            </section>
+            <section class="section2" id="section2">
 
+                <div class="slides">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="images/imgSlide1.jpg"  alt="">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="images/imgSlide2.jpg"  alt="">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="images/imgSlide4.jpg" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/imgSlide3.jpg" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/imgSlide5.jpg" alt="">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align: center;">
+                    <p>Наша обувь лучшая на рынке</p>
+                </div>
+                </div>
+            </section>
+            <section class="section3" id="section3">
+                <h1>Sagimi - это компания, продающая кроссовок самых известных мировых брендов</h1>
+                <p>Мы гордимся тем, что предлагаем только высококачественную обувь, которая удовлетворит потребности даже самых требовательных покупателей. Мы не просто продаем кроссовки, мы создаем культуру кроссовок, которая объединяет людей по всему миру. Sagimi - это не просто компания, это сообщество единомышленников, которые разделяют нашу страсть к кроссовкам и моде.</p>
+            </section>
+        </main>
+        <footer id="footer">
+            <p>Контакты с нами</p>
+            <div class="contact">
+                <img src="images/Telega3.png" alt="">
+                <p>Sagimi</p>
+            </div>
+            <div class="contact1">
+                <img src="images/vk.png" alt="">
+                <p>Sagimi</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+    </body>
+</html>
