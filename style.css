@@ -124,6 +124,7 @@ nav ul li a:active {
   border-radius: 10px;
   height: auto;
   width: 67vw;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .slides {
@@ -256,6 +257,8 @@ footer {
   margin: 0;
   font-size: 16px;
 }
+
+
 
 .fade {
   -webkit-animation-name: fade;
